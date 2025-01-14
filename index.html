@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio ft.Mihir Ginde</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/866a5c8a79.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="photos/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul><i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer | Trekker | Graphic Designer</p>
+                <h1>Hi, I'm <span>Mihir</span><br>Ginde from Pune.</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photos/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><span>About</span> Me</h1>
+                    <p>
+                        Enthusiastic frontend developer with a passion for crafting captivating user experiences and a knack for combining technical expertise with creative flair. As the Event Operations Head at AWS Cloud Club, I lead the execution of innovative and impactful events. My leadership experience extends to the outdoors as a trek leader in a renowned trekking company, where I foster teamwork and resilience. Actively engaged in community service and an avid graphic design enthusiast, I bring a dynamic blend of skills, creativity, and leadership to every endeavor.
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Coder</span><br>HTML | CSS | JAVA.</li>
+                            <li><span>Trekking</span><br>Plays a role of a volunteer and a trek leader.</li>
+                            <li><span>Graphic Designer</span><br>Adobe Photoshop | Canva | Blender | Picsart.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Event Ops. head @ MIT WPU's AWS Cloud Club.</li>
+                            <li><span>2022 - Current</span><br>Trek Leader and Volunteer @ Wildfreak Outdoors.</li>
+                            <li><span>2023 - Current</span><br>Freelancing as Graphic Designer.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020</span><br>Completed Matriculation Examination from Rosary High School.</li>
+                            <li><span>2022</span><br>Completed the Higher Secondary Education from Ashoka Vidyalaya Jr Clg.</li>
+                            <li><span>2022 - Current</span><br>Persuing Computer Science with Specialisation in Cloud Computing from MIT WPU.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- ----------services----------- -->
+
+   <div id="services">
+<div class="container">
+    <h1 class="sub-title">My <span>Services</span></h1>
+    <div class="services-list">
+<div>
+    <i class="fa-solid fa-code"></i>
+    <h2>Web Design</h2>
+    <p>Experienced web designer specializing in HTML and CSS for visually appealing and responsive websites. Tailored solutions for an enhanced user experience.</p>
+    <a href="#">Learn More</a>
+</div>
+<div>
+    <i class="fa-brands fa-pagelines"></i>
+    <h2>Treks</h2>
+    <p>Explore Maharashtra's beauty with a dedicated trek leader. Expertly curated treks through diverse landscapes, from the Western Ghats to Historic forts. Your gateway to safe, adventurous, and unforgettable trekking experiences.</p>
+    <a href="#">Learn More</a>
+</div>
+<div>
+    <i class="fa-solid fa-palette"></i>
+    <h2>Graphic Designing</h2>
+    <p>Expert graphic designer specializing in editing, logo creation, and impactful poster design. Elevate your visual identity with precision and creativity. Transform concepts into compelling designs for a lasting impression.</p>
+    <a href="#">Learn More</a>
+</div>
+    </div>
+</div>
+   </div>
+<!----------------------portfolio----------->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My <span>Work</span></h1>
+    <div class="work-list">
+<div class="work">
+    <img src="photos/work1.png">
+    <div class="layer">
+        <h3>Portfolio Site | Calculator | Age-Calculator </h3>
+        <p>A portfolio website showcases skills and achievements, featuring projects like a calculator and an age calculator created with HTML and CSS, demonstrating coding expertise and practical application development.</p>
+        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+    </div>
+</div>
+<div class="work">
+    <img src="photos/work2.png">
+    <div class="layer">
+        <h3>Treks</h3>
+        <p>Extensive trekking experience across Maharashtra, covering prominent trails like Kalsubai, Harishchandragad, and Rajgad, along with high-altitude expeditions to Spiti Valley and Bhrigu Lake, showcasing adaptability to diverse terrains and environments.</p>
+        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+    </div>
+</div>
+<div class="work">
+    <img src="photos/work3.png">
+    <div class="layer">
+        <h3>Logo | Poster for an College Club</h3>
+        <p>Utilized my design talent to craft the official logo and posters for a college club associated officially AWS. </p>
+        <a href="C:\Users\Mihir Ginde\Desktop\main selected.png"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+       </div>
+    </div>
+<a href="#" class="btn">See More</a>
+</div>
+</div>
+<!------------------------contact----------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><span>Contact</span> Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> gindemihir2207@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9881190280</p>
+                 <div class="social-icons">
+                    <a href="https://www.instagram.com/ginde_mihirr22?igsh=MWxqeG5iZWQxN25qYw==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mihir-ginde-4845a7260" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                 </div>
+                 <a href="C:\Users\Mihir Ginde\Desktop\desktop important\resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <textarea input type="text" name="Name" placeholder="Your Name" required></textarea>
+                    <textarea type="text" name="Email" placeholder="Your Email" required></textarea>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Created by Mihir Ginde <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
